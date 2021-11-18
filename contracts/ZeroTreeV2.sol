@@ -9,7 +9,7 @@ import "deps/@openzeppelin/contracts-upgradeable/token/ERC20/SafeERC20Upgradeabl
 import "deps/@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol";
 import "deps/@openzeppelin/contracts-upgradeable/utils/PausableUpgradeable.sol";
 import "deps/@openzeppelin/contracts-upgradeable/cryptography/MerkleProofUpgradeable.sol";
-import "../interfaces/ICumulativeMultiTokenMerkleDistributor.sol";
+import "./interfaces/ICumulativeMultiTokenMerkleDistributor.sol";
 import "interfaces/digg/IDigg.sol";
 
 contract ZeroTreeV2 is Initializable, AccessControlUpgradeable, ICumulativeMultiTokenMerkleDistributor, PausableUpgradeable {
